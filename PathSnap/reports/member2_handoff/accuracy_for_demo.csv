@@ -1,0 +1,10 @@
+name,top1_correct,GPS_fixes,accuracy_percent
+logistic_regression,14960,19160,78.08
+distance_weighted_knn,13908,19160,72.59
+gaussian_naive_bayes,14434,19160,75.33
+shrinkage_lda,14818,19160,77.34
+decision_tree,15060,19160,78.6
+shallow_mlp,14929,19160,77.92
+random_forest,14757,19160,77.02
+hist_gradient_boosting,14939,19160,77.97
+shallow_mlp_tuned,14943,19160,77.99

@@ -1,0 +1,49 @@
+{
+  "tuned": {
+    "name": "shallow_mlp",
+    "best_cv_macro_f1": 0.8131726339602029,
+    "candidate_macro_f1": 0.816208122012305,
+    "candidate_precision": 0.5895652173913043,
+    "candidate_recall": 0.7795954633355981,
+    "top1_accuracy": 0.7810066377463022,
+    "observation_log_loss": 0.7852346388231392,
+    "candidate_miss_rate": 0.0014091858037578288,
+    "candidate_coverage": 0.9985908141962422,
+    "classifier_only_route_continuity": 0.8910134850400337,
+    "gps_observations": 19160,
+    "covered_observations": 19133,
+    "top1_correct": 14943,
+    "top1_all_fixes": 0.7799060542797495,
+    "fit_seconds": 5.599227458000314,
+    "inference_seconds": 0.029809124998791958
+  },
+  "parameters": {
+    "alpha": 0.0013292918943162175,
+    "learning_rate_init": 0.004352615870509425
+  },
+  "features": [
+    "distance_m",
+    "bearing_diff",
+    "gps_speed",
+    "road_length_m",
+    "heading_consistency",
+    "point_time_delta",
+    "speed_valid",
+    "heading_valid",
+    "time_gap"
+  ],
+  "cv_fixes": 25600,
+  "full_fit_rows": 770930,
+  "train": {
+    "points": 208417,
+    "with_candidates": 190188,
+    "aligned_present": 185162,
+    "candidate_rows": 1869591
+  },
+  "student": {
+    "points": 19160,
+    "with_candidates": 19160,
+    "aligned_present": 19133,
+    "candidate_rows": 209581
+  }
+}
