@@ -1,4 +1,4 @@
-"""Regenerate the Member 2 comparison figure and verify the saved classifier."""
+"""Regenerate the comparison figure for Vidhwath’s models and verify the saved classifier."""
 import json
 from pathlib import Path
 import joblib
@@ -7,7 +7,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from .member2_handoff import DATA, OUT, FEATURES
+from .vidhwath_training import DATA, OUT, FEATURES
 
 def main():
     result = json.loads((OUT/"result.json").read_text())

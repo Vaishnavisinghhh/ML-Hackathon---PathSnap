@@ -1,4 +1,6 @@
-# Team 2 · Candidate road classification
+# Candidate road classification
+
+Model training and evaluation by Vidhwath (Team 2).
 
 Use this run for the feature exports supplied by Member 1. The earlier pilot directories contain experiments with a different candidate set and alignment method.
 
@@ -16,7 +18,7 @@ The comparison CSV reports classifier-only metrics. The top1_all_fixes column co
 
 Keep the original WhatsApp exports in data/member1 and the original dataset at ../../Student folder. Run these two commands with the project environment:
 
-    .venv/bin/python -m src.member2_handoff
-    .venv/bin/python -m src.member2_results
+    .venv/bin/python -m src.vidhwath_training
+    .venv/bin/python -m src.vidhwath_results
 
 The first command saves the eight fitted baselines, baseline metrics, per-trip coverage, tuning trials and tuned classifier. The second selects the tuned variant if its training CV score meets or exceeds the baseline, loads the selected file, writes its nine-column input contract to inference.json and exports student_predictions.csv. The score column is the model's positive-class probability estimate. Normalize scores within a GPS fix if the decoder requires candidate probabilities summing to one.

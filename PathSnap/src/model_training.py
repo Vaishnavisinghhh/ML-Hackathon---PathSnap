@@ -1,4 +1,4 @@
-"""Member 2: compare eight candidate classifiers and tune the CV winner.
+"""Vidhwath’s training pipeline: compare eight candidate classifiers and tune the CV winner.
 
 Expected CSV: one row per (trip_id, observation_id, candidate_id), with numeric
 candidate features, binary `label`, and optional `candidate_miss`. Candidate

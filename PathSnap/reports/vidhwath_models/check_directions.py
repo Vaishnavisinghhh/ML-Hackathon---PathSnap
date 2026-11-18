@@ -1,4 +1,4 @@
-"""Run from PathSnap: .venv/bin/python reports/member2_handoff/check_directions.py"""
+"""Run from PathSnap: .venv/bin/python reports/vidhwath_models/check_directions.py"""
 from pathlib import Path
 import numpy as np
 import pandas as pd

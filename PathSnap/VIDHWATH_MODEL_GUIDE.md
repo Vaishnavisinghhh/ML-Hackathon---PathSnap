@@ -1,4 +1,4 @@
-# Member 2: model choices and evaluation
+# Vidhwath’s model comparison and evaluation
 
 ## The eight models
 
@@ -26,6 +26,6 @@ The models are not assumed to outperform one another. We select the final candid
 
 ## Completed team run
 
-The final comparison uses Member 1’s nine features and the original ordered reference routes. See [the reproducible run and metric definitions](reports/member2_handoff/README.md) and [the model comparison](reports/member2_handoff/baseline_comparison.csv). Sampling and missing-candidate counts for this run are recorded there. The 80 training trips and 10 student-test trips are disjoint.
+The final comparison uses Member 1’s nine features and the original ordered reference routes. See [the reproducible run and metric definitions](reports/vidhwath_models/README.md) and [the model comparison](reports/vidhwath_models/baseline_comparison.csv). Sampling and missing-candidate counts for this run are recorded there. The 80 training trips and 10 student-test trips are disjoint.
 
-For the decoder, extract [the classifier ZIP](reports/member2_handoff/member3_classifier.zip). With the dependencies installed, run `python score_candidates.py input.csv scores.csv` from the extracted folder. Keep the per-candidate scores and the trip, point and arc keys for sequence decoding.
+For the decoder, extract [the classifier ZIP](reports/vidhwath_models/member3_classifier.zip). With the dependencies installed, run `python score_candidates.py input.csv scores.csv` from the extracted folder. Keep the per-candidate scores and the trip, point and arc keys for sequence decoding.

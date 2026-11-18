@@ -1,6 +1,6 @@
-"""Train Member 2's models on the team's original candidate exports.
+"""Train Vidhwath's models on the team's original candidate exports.
 
-Run from PathSnap: .venv/bin/python -m src.member2_handoff
+Run from PathSnap: .venv/bin/python -m src.vidhwath_training
 """
 from pathlib import Path
 import json
@@ -15,7 +15,7 @@ from .evaluation import evaluate_candidate_table, predict_candidate_scores
 
 RAW = Path("../../Student folder")
 DATA = Path("data/member1")
-OUT = Path("reports/member2_handoff")
+OUT = Path("reports/vidhwath_models")
 FEATURES = ["distance_m", "bearing_diff", "gps_speed", "road_length_m", "heading_consistency",
             "point_time_delta", "speed_valid", "heading_valid", "time_gap"]
 
