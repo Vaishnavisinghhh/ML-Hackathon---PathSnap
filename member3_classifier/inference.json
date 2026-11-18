@@ -1,0 +1,17 @@
+{
+  "model_file": "tuned_model.joblib",
+  "name": "shallow_mlp",
+  "variant": "tuned",
+  "columns": [
+    "distance_m",
+    "bearing_diff",
+    "gps_speed",
+    "road_length_m",
+    "heading_consistency",
+    "point_time_delta",
+    "speed_valid",
+    "heading_valid",
+    "time_gap"
+  ],
+  "positive_class": 1
+}
